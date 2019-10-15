@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="Description" content="Create awesome buttons for your website using only CSS3. Perfect for links to social networks and just general form buttons and links around your website." />
+		<meta name="Keywords" content="button, creator, generator, css, link, input tag, lighten on hover, web 2, web 2.0, web designer, web developer, jquery, javascript, js, css3, social buttons, login with facebook, login with twitter, google plus, google+, share on facebook, share on google plus, tweet, listen on spotify, pay with paypal, pin on pinterest, colors, yahoo, youtube, watch on youtube" />
+		<title>CSS3 Button Box &gt; The Awesome CSS3 Button Generator</title>
+		<link href="http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo" rel="stylesheet" type="text/css" />
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="js.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="header">
+			<h1>CSS3 Button Box</h1>
+		</div>
+		<div class="main">
+			<h2>Suggestions</h2>
+			<a href="javascript:;" onclick="setup('3B5998');" class="box" style="background-color:#3B5998;">facebook</a>
+			<a href="javascript:;" onclick="setup('0086af');" class="box" style="background-color:#0086af;">twitter</a>
+			<a href="javascript:;" onclick="setup('D14836');" class="box" style="background-color:#D14836;">google+</a>
+			<a href="javascript:;" onclick="setup('FB8F3D');" class="box" style="background-color:#FB8F3D;">blogger</a>
+			<a href="javascript:;" onclick="setup('D43638');" class="box" style="background-color:#D43638;">pinterest</a>
+			<a href="javascript:;" onclick="setup('0063DC');" class="box" style="background-color:#0063DC;">flickr</a>
+			<a href="javascript:;" onclick="setup('bb2526');" class="box" style="background-color:#bb2526;">youtube</a>
+			<a href="javascript:;" onclick="setup('7B0099');" class="box" style="background-color:#7B0099;">yahoo</a>
+			<a href="javascript:;" onclick="setup('6cc700');" class="box" style="background-color:#6cc700;">spotify</a>
+			<a href="javascript:;" onclick="setup('003366');" class="box" style="background-color:#003366;">paypal</a>
+			<a href="javascript:;" onclick="setup('ff9900');" class="box" style="background-color:#ff9900;">newhaze</a>
+			<a href="javascript:;" onclick="setup('4c4391');" class="box" style="background-color:#4c4391;">purple</a>
+			<a href="javascript:;" onclick="setup('bf0a2b');" class="box" style="background-color:#bf0a2b;">red</a>
+			<a href="javascript:;" onclick="setup('1f7119');" class="box" style="background-color:#1f7119;">green</a>
+			<a href="javascript:;" onclick="setup('5e5f56');" class="box" style="background-color:#5e5f56;">grey</a>
+			<a href="javascript:;" onclick="setup('0777f6');" class="box" style="background-color:#0777f6;">blue</a>
+			<a href="javascript:;" onclick="setup('dff52f');" class="box" style="background-color:#dff52f;color:#333;">yellow</a>
+			<a href="javascript:;" onclick="setup('da186c');" class="box" style="background-color:#da186c;">pink</a>
+			<a href="javascript:;" onclick="setup('110d22');" class="box" style="background-color:#110d22;">black</a>
+			<a href="javascript:;" onclick="random_col();" class="box" style="background-color:#eee;color:#333;">random</a>
+			<table width="100%">
+				<tr valign="top">
+					<td width="50%">
+						<h2>Generator</h2>
+						<table border="0" cellspacing="5" cellpadding="0">
+							<tr valign="top"><td><strong>Background Color</strong></td><td><input type="text" id="base" value="ff9900" /></td></tr>
+							<tr valign="top"><td><strong>Button Text</strong></td><td><input type="text" id="btntxt" value="This is a button" /></td></tr>
+							<tr valign="top"><td><strong>Shadow</strong></td><td><input type="checkbox" id="shadow" /></td></tr>
+							<tr valign="top"><td><strong>Text Color</strong></td><td>
+								<a href="javascript:;" onclick="textcol('FFFFFF');" class="box" style="background-color:#FFFFFF;color:#333;">white</a>
+								<a href="javascript:;" onclick="textcol('000000');" class="box" style="background-color:#000000;">black</a>
+							</td></tr>
+							<tr valign="top"><td><strong>Size</strong></td><td><label><input type="radio" name="size" value="s" /> Small</label> <label><input type="radio" name="size" value="m" /> Medium</label> <label><input type="radio" name="size" value="l" checked="checked" /> Large</label></td></tr>
+						</table>
+					</td>
+					<td width="50%">
+						<h2>Preview</h2>
+						<div id="preview_area"></div>
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="LFADS75D7CGVN">
+							<div class="btn_TGSn01phgFNo"><a href="javascript:;" onclick="togglecode();">Get the Code</a></div>
+							<div class="btn_TGSn01phgFNo"><input type="submit" value="Donate" /></div>
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+						</form>
+					</td>
+				</tr>
+			</table>
+			<div id="codebox" style="display:none;">
+				<h2>Copy the code</h2>
+				<pre id="copycode"></pre>
+				<div class="btn_TGSn01phgFNo"><a href="javascript:;" onclick="hidecode();">Hide the Code</a></div>
+			</div>
+			<div class="footer">
+				Created by <a href="http://www.edmundgentle.com" target="_blank">Edmund Gentle</a>.
+				Free for use on any project. If you like it, it would be nice to have a link back <strong>;-)</strong>
+			</div>
+		</div>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-34491020-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	</body>
+</html>
